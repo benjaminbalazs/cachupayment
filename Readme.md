@@ -1,5 +1,5 @@
-How To USE:
-
+How To USE: <br>
+<br>
 *** please view code in file cachu.example.js
 Step 1: npm install
 Step 2: npm test 
