@@ -1,0 +1,17 @@
+{
+  "name": "cachu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node cachu.example.js",
+    "start": "node cachu.module.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "request": "^2.85.0",
+    "soap": "^0.23.0"
+  }
+}
