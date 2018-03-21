@@ -6,12 +6,12 @@ How To USE: <br>
 
 -- IMPORTANT:  
 - Create new PaymentGateway:  
-    -code :
+    - code :
         - const cachu = require('./cachu.module');
         - var paymentGateway = new cachu(option);
 
-    -note:   
-        -Structure of option  
+    - note:   
+        - Structure of option  
           -  option: Object = {  
           -      mode: 'dev' || 'live', //'dev' is sandbox. 'live' is live production  
           -      encryption_key: string // the encryption key  
@@ -19,16 +19,16 @@ How To USE: <br>
           -      service_name: string // the service_name in account  
           -  }
 - Create a paymentRequest;  
-    -code:  
+    - code:  
         cachu.doPaymentRequest(option) // Promise function  
-    -response:  
-        -success :  
+    - response:  
+        - success :  
             - html code  
-        -error :  
+        - error :  
             - the error happen  
-    -note:  
-    -Structure of option  
-        -option:Object = {  
+    - note:  
+    - Structure of option  
+        - option:Object = {  
            - *amount :  string or number // amount of item  
            - *currency : string //currency Code,  
            - *language : string // code of language,  
@@ -40,5 +40,5 @@ How To USE: <br>
            - txt4 : ' ',  
            - txt5 : ' ',  
            - testMode: '0' // the testMode  
-        -}  
+        - }  
   
