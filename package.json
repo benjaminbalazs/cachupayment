@@ -1,11 +1,11 @@
 {
-  "name": "cachu",
+  "name": "cashu",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "node cachu.example.js",
-    "start": "node cachu.module.js"
+    "test": "node cashu.example.js",
+    "start": "node cashu.module.js"
   },
   "author": "",
   "license": "ISC",
